@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <h2>Первая программа на JavaScript</h2>
+        <script>
+var country = {
+ 
+ name: "Германия",
+ language: "немецкий",
+ capital:{
+  
+     name: "Берлин",
+     population: 3375000,
+     year: 1237
+ }
+};
+document.write("Столица: " + country.capital.name);// Берлин 
+document.write("Население: " + country["capital"]["population"]); // 3375000
+document.write("Год основания: " + country.capital["year"]); // 1237
+        </script>
+    </body>
+</html>
